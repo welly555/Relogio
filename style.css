@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'DS-DIGI';
+    src: url('DS-DIGI.TTF') format('truetype');
+}
+
+
+body{
+    font-family: 'DS-DIGI';
+    font-weight: bold;
+    
+}
+/*centralização dos texos*/
+.texto,.relogio{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.relogio .container{ 
+    display: inline-flex;
+    position: relative;
+    margin-top: 25%;
+    
+}
+
+/*tamanho das fontes*/
+.texto .row{
+    font-size: 100px;
+}
+
+.relogio h1{
+    font-size: 200px;
+}
+.row h2{
+    font-size: 180px;
+}
